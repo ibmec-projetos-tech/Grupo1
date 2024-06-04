@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #858585;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+button {
+    background-color: #858585;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #cfcfcf44;
+}
+button img {
+    margin-right: 10px;
+}
+
+p {
+    position: fixed;
+    bottom: 0;
+    color: white;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
