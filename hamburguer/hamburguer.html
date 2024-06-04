@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hamburguer.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav></nav>
+    <hr>
+    <main></main>
+    <hr>
+    <section id="ajuda"></section>
+    <footer></footer>
+
+    <script>
+        // Importa as imagens
+        const ajuda = 'ajuda.png';
+        const conexoes = 'conexoes.png';
+        const configuracoes = 'configuracoes.png';
+        const facebook = 'facebook.png';
+        const fechar = 'fechar.png';
+        const logo = 'logo.png';
+        const mapa = 'mapa.png';
+        const tiktok = 'tiktok.png';
+        const turismo = 'turismo.png';
+        const wpp = 'wpp.png';
+        const youtube = 'youtube.png';
+
+        // cria os botões
+
+        const buttonConfiguracoes = document.createElement('button');
+        buttonConfiguracoes.innerHTML = `<img src="${configuracoes}" alt="configuracoes">`;
+        buttonConfiguracoes.addEventListener('click', () => {
+            window.open('https://www.configuracoes.com', '_blank');
+        });
+
+        const buttonAjuda = document.createElement('button');
+        buttonAjuda.innerHTML = `<img src="${ajuda}" alt="Ajuda">`;
+        buttonAjuda.addEventListener('click', () => {
+            window.open('https://www.ajuda.com', '_blank');
+        });
+
+        const buttonConexoes = document.createElement('button');
+        buttonConexoes.innerHTML = `<img src="${conexoes}" alt="Conexões">`;
+        buttonConexoes.addEventListener('click', () => {
+            window.open('https://www.conexoes.com', '_blank');
+        });
+
+        const buttonFacebook = document.createElement('button');
+        buttonFacebook.innerHTML = `<img src="${facebook}" alt="Facebook">`;
+        buttonFacebook.addEventListener('click', () => {
+            window.open('https://www.facebook.com', '_blank');
+        });
+
+        const buttonFechar = document.createElement('button');
+        buttonFechar.innerHTML = `<img src="${fechar}" alt="Fechar">`;
+        buttonFechar.addEventListener('click', () => {
+            window.open('https://www.fechar.com', '_blank');
+        });
+
+        const buttonLogo = document.createElement('button');
+        buttonLogo.innerHTML = `<img src="${logo}" alt="Logo">`;
+        buttonLogo.addEventListener('click', () => {
+            window.open('https://www.logo.com', '_blank');
+        });
+
+        const buttonMapa = document.createElement('button');
+        buttonMapa.innerHTML = `<img src="${mapa}" alt="Mapa">`;
+        buttonMapa.addEventListener('click', () => {
+            window.open('https://www.mapa.com', '_blank');
+        });
+
+        const buttonTiktok = document.createElement('button');
+        buttonTiktok.innerHTML = `<img src="${tiktok}" alt="Tiktok">`;
+        buttonTiktok.addEventListener('click', () => {
+            window.open('https://www.tiktok.com', '_blank');
+        });
+
+        const buttonTurismo = document.createElement('button');
+        buttonTurismo.innerHTML = `<img src="${turismo}" alt="Turismo">`;
+        buttonTurismo.addEventListener('click', () => {
+            window.open('https://www.turismo.com', '_blank');
+        });
+
+        const buttonWpp = document.createElement('button');
+        buttonWpp.innerHTML = `<img src="${wpp}" alt="Wpp">`;
+        buttonWpp.addEventListener('click', () => {
+            window.open('https://www.wpp.com', '_blank');
+        });
+
+        const buttonYoutube = document.createElement('button');
+        buttonYoutube.innerHTML = `<img src="${youtube}" alt="Youtube">`;
+        buttonYoutube.addEventListener('click', () => {
+            window.open('https://www.youtube.com', '_blank');
+        });
+
+        // adiciona os botões ao container
+        const nav = document.querySelector('nav');
+        nav.appendChild(buttonConfiguracoes);
+        nav.appendChild(buttonLogo);
+        nav.appendChild(buttonFechar);
+
+
+        const main = document.querySelector('main');
+        main.appendChild(buttonConexoes);
+        main.appendChild(buttonMapa);
+        main.appendChild(buttonTurismo);
+
+        const helpSection = document.querySelector('#ajuda');
+        helpSection.appendChild(buttonAjuda);
+
+        const footer = document.querySelector('footer');
+        footer.appendChild(buttonWpp);
+        footer.appendChild(buttonYoutube);
+        footer.appendChild(buttonFacebook);
+        footer.appendChild(buttonTiktok);
+    </script>
+</body>
+</html>
