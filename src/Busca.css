@@ -1,0 +1,130 @@
+
+.Busca{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Added this line */
+    align-items: center; /* Added this line */
+    position: relative;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top:17px;
+    padding:0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Search{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin:0;
+    padding:0;
+}
+
+
+.Opcoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin:0;
+    padding:0;
+    height: 75%;
+    width: 100%;
+}
+.Opc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin:0;
+    padding:0;
+    height: 50%;
+    width: 85%;
+    border-Radius: 5px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    cursor: pointer;
+
+}
+.Opc1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin:0;
+    padding:0;
+    height: 50%;
+    width: 85%;
+    border-Radius: 5px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    cursor: pointer;
+
+}
+ 
+.Botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom:10px;
+    padding:0;
+    height: 10%;
+    width: 45%;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    background-color: black; 
+    color: white; 
+    font-size: 1.1em;
+    cursor: pointer;
+
+}
+.SwiftButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding:0;
+    height: 65%;
+    width: 25%;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    background-color: black; 
+    color: white; 
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.texto{
+    width: 70%;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+.pai_texto_swift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top:10px;
+    padding:0;
+    height: 25%;
+    width: 100%;
+}
