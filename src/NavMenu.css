@@ -1,0 +1,83 @@
+
+.Pai{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 8vh;
+    background-color: #a40000;
+    padding-left: 10px;
+}
+.Logo_CPTM{
+    padding-top: 5px;
+    margin-left: 45px;
+}
+.Menu_Ham{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.Menu_Ham:hover{
+    background-color: #e90000; 
+}
+.Linhas{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;    
+}
+
+
+
+.fundo_menu {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    z-index: 1;
+}
+.menu {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+
+}
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: #ffffff;
+    padding-left: 10px;
+}
+.redes_sociais{
+    margin-top: 30px;    
+}
+
+button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bdbcbc44;
+}
+
+button img {
+    margin-right: 10px;
+}
+
+.icone{
+    margin-right: 3px;
+    margin-left: 3px;
+}
